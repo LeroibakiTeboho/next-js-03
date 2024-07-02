@@ -1,9 +1,14 @@
 import Card from '@/components/card'
+import Link from 'next/link'
 import React from 'react'
+
 
 function Notifications() {
   return (
-    <Card>Notifications</Card>
+    <Card>
+      <div>Notifications</div>
+      <Link href="/complex-dashboard/archived">Archived</Link>
+    </Card>
   )
 }
 

@@ -7,7 +7,8 @@ const Card = ({children}: {children: React.ReactNode}) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%'
+        width: '100%',
+        flexFlow: 'column',
     };
 
     return <div style={cardStyle}>{children}</div>
